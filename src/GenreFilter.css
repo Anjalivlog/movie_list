@@ -1,0 +1,21 @@
+
+
+.genre-button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: #d2d2d2;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 2px;
+  }
+  
+  .genre-button:hover {
+    background-color: #c0bdbd;
+    transform: translateY(-2px);
+  }
+  
+  .genre-button:focus {
+    outline: none;
+  }
